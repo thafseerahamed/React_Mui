@@ -113,7 +113,7 @@ const Analytics = () => {
                     <Box height={30} />
                     <Grid container spacing={2}>
                         <Grid item xs={7}>
-                            <Card sx={{ height: 50 + "vh" }}>
+                            <Card sx={{ height: 45 + "vh" }}>
                                 <CardContent>
                                     <Geochart />
                                 </CardContent>
@@ -121,7 +121,7 @@ const Analytics = () => {
 
                         </Grid>
                         <Grid item xs={5}>
-                            <Card sx={{ height: 50 + "vh" }}>
+                            <Card sx={{ height: 45 + "vh" }}>
                                 <CardContent>
                                     <Piechart />
                                 </CardContent>

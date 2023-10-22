@@ -74,7 +74,7 @@ const Home = () => {
 
                       <span className='pricetitle'>$<CountUp delay={0.2} end={23} duration={0.3}/>k</span>
                       <br />
-                      <span className='pricesubtitle'>Total Income</span>
+                      <span className='pricesubtitle 'style={{color:'#ccd1d1'}}>Total Income</span>
                     </div>
                   </Stack>
 
@@ -102,7 +102,7 @@ const Home = () => {
           <Box height={20} />
           <Grid container spacing={2}>
             <Grid item xs={8}>
-              <Card sx={{ height: 60 + "vh" }}>
+              <Card sx={{ height: 55 + "vh" }}>
 
                 <CardContent>
 
@@ -113,7 +113,7 @@ const Home = () => {
 
             </Grid>
             <Grid item xs={4}>
-              <Card sx={{ height: 60 + "vh" }}>
+              <Card sx={{ height: 55 + "vh" }}>
 
                 <CardContent>
                   <div className='paddingAll'>
