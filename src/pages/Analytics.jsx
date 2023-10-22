@@ -1,8 +1,8 @@
 import React from 'react'
 import Sidenav from '../components/Sidenav'
 import Navbar from '../components/Navbar'
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-import { Box, Card, CardActionArea, CardContent, Grid, Stack, Typography } from '@mui/material'
+
+import { Box, Card,CardContent, Grid, Stack, Typography } from '@mui/material'
 import Geochart from '../charts/Geochart';
 import Piechart from '../charts/Piechart';
 import Hbarchart from '../charts/Hbarchart';
