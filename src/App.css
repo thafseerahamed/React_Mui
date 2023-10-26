@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+/* CSS for legend title */
+.canvasjs-chart-legend-title {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  text-align: center; /* Center the title */
+  width: 100%; /* Ensure full width */
+}
+
+/* CSS for legend items */
+.canvasjs-chart-legend {
+  position: relative;
+  top: 0; /* Adjust the top position as needed */
+  text-align: center; /* Center the legend items */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
